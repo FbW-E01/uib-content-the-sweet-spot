@@ -1,0 +1,47 @@
+h1 {
+    color: #dad7d7;
+    background-color: #ff759f;
+}
+
+h2 {
+    color: #ff00f2;
+    background-color: #dad7d7;
+}
+
+#main-topic {
+    background-color: #ff00b4;
+}
+
+.subtopic {
+    background-color: #dbff4a;
+}
+
+ul {
+    list-style: none;
+    color: #6a008b;
+    background-color: #00ddef;
+}
+
+ul:hover {
+    background-color: #dbff4a;
+}
+
+a:visited {
+    color: #531a8b;
+}
+
+a:active {
+    color: #ffffff;
+    background-color: rgb(255, 105, 180);
+}
+
+h4 a:active {
+    color: red;
+    background-color: white;
+}
+
+h4 a:visited {
+    color: #1ed7f0;
+}
+
+
