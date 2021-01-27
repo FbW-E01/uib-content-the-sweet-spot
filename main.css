@@ -44,4 +44,15 @@ h4 a:visited {
     color: #1ed7f0;
 }
 
+h3 + ul {
+    list-style: circle;
+}
+
+h3 + ul:hover {
+    background-color: #f58ea0;
+}
+
+#main a:visited {
+    color: #ec10bd;
+}
 
