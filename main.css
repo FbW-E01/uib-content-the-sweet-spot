@@ -9,6 +9,32 @@ html {
     margin: auto;
 }
 
+.right {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    text-align: center;
+    width: 150;
+    background-color: #AA7039;
+    color: #796B5E;
+}
+
+.right a {
+    display: block;
+    color: #937B64;
+    transition: 0.3s;
+}
+
+.right a:visited {
+    color: #796B5E;
+}
+
+.right a:hover {
+    background-color: #796B5E;
+    color: #C15E00;
+    transition: 0.3s;
+}
+
 h1 {
     color: #dad7d7;
     background-color: #ff759f;
