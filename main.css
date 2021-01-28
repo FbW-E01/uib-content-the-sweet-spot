@@ -21,12 +21,12 @@ html {
 
 .right a {
     display: block;
-    color: #937B64;
+    color: #6B3200;
     transition: 0.3s;
 }
 
 .right a:visited {
-    color: #796B5E;
+    color: #793800;
 }
 
 .right a:hover {
