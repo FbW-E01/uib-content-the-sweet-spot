@@ -1,0 +1,82 @@
+/* General styles that aplly to all project pages */
+
+html {
+    font-size: 1rem;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    width: 97vw;
+}
+
+/* Styles for index.html, in order of html flow
+    - styles for contact.html follows below */ 
+
+.title-mainPage {
+    color: #dad8d8;
+    background-color: #f58ea0;
+}
+
+h2 {
+    color: #f113f1;
+    background-color: #dad8d8;
+}
+
+.mainTopic-paragraph {
+    background-color: #ff69b4;
+}
+
+h3 {
+    background-color: #ebf64d;
+}
+
+.mainTopic-subtopic-paragraph:hover{
+    color: #f58ea0;
+}
+
+.nextMainTopic-paragraph {
+    font-weight: bold;
+}
+
+.partners {
+    background-color: #1ed7f0;
+}
+
+.partners {
+    list-style-type: none;
+    text-decoration: underline;
+    color: #561a8b;
+}
+
+.partners a:hover {
+    color: #f113f1;
+}
+
+.link-contactPage {
+    font-weight: bold;
+    color: #1ed7f0;
+}
+
+/* Styles for contact.html */
+
+.title-contactPage {
+    font-size: 1.5rem;
+}
+
+.contact {
+    list-style-type: circle;
+    text-decoration: underline;
+    color: #0001ee;
+    background-color: #1ed7f0;
+}
+
+.contact a:hover {
+    color: #f113f1;
+}
+
+.link-mainPage{
+    font-weight: bold;
+    color: #f113f1;
+}
