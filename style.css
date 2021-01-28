@@ -1,0 +1,42 @@
+#main-wrap{
+    width: 70%; margin-left: 200px;
+}
+h1
+{background-color:#f58ea0; color: #dad8d8;
+
+}
+h2{
+    background-color: #dad8d8; color: #f112f1;
+}
+h3{
+    background-color: #ebf64d;
+}
+h3:hover{
+    color: rgb(30, 215, 240);
+}
+
+.referals{
+    background-color: turquoise; 
+}
+li {
+    list-style: none;
+}
+
+.referals:hover{
+    background-color: rgb(243, 217, 71);
+}
+a:visited {
+    color:#ec10bd;
+  }
+
+  h3  ul li {
+    list-style: circle;
+  }
+  
+  h4 a:visited{
+      color: #000;
+  }
+  h4 a:active{
+      color: yellowgreen;
+  }
+  
