@@ -1,42 +1,49 @@
-#main-wrap{
-    width: 70%; margin-left: 200px;
+.main-wrap {
+  width: 70%;
+  margin-left: 200px;
 }
-h1
-{background-color:#f58ea0; color: #dad8d8;
+h1 {
+  background-color: rgb(255, 102, 102);
+  color: rgb(218, 216, 216);
+}
+h2 {
+  background-color: rgb(218, 216, 216);
+  color: rgb(241, 18, 241);
+}
+h3 {
+  background-color: rgb(235, 246, 77);
+}
+h3:hover {
+  color: rgb(30, 215, 240);
+}
 
-}
-h2{
-    background-color: #dad8d8; color: #f112f1;
-}
-h3{
-    background-color: #ebf64d;
-}
-h3:hover{
-    color: rgb(30, 215, 240);
-}
-
-.referals{
-    background-color: turquoise; 
+.referals {
+  background-color: rgb(64, 224, 208);
 }
 li {
-    list-style: none;
+  list-style: none;
 }
 
-.referals:hover{
-    background-color: rgb(243, 217, 71);
+.referals:hover {
+  background-color: rgb(243, 217, 71);
 }
 a:visited {
-    color:#ec10bd;
-  }
+  color: rgb(236, 16, 189);
+}
 
-  h3  ul li {
-    list-style: circle;
-  }
-  
-  h4 a:visited{
-      color: #000;
-  }
-  h4 a:active{
-      color: yellowgreen;
-  }
-  
+ul li a:active {
+  color: rgb(255, 255, 255);
+}
+h3 ul li {
+  list-style: circle;
+}
+#send-word a:visited {
+  color: rgb(20, 250, 219);
+}
+#send-word a:active {
+  color: chartreuse;
+}
+#contactpage {
+  color: 000000;
+  background-color: rgb(255, 255, 255);
+}
