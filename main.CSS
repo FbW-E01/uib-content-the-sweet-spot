@@ -1,0 +1,77 @@
+html {
+    font-size: 28px;
+    background-color: lightskyblue;
+}
+
+.megawrapper {
+    width: 800px;
+    background-color: rgb(235, 187, 156);
+}
+
+.h1-decoration {
+    color: rgb(228, 228, 228);
+    background-color: rgb(240, 156, 170);
+    font-size: 2.5em;
+}
+
+.h2-decoration {
+    color: rgb(252, 9, 252);
+    font-weight: bold;
+    font-size: 1.8em;
+    background-color: rgb(224, 223, 223);
+}
+
+.p-pink {
+    background-color: rgb(252, 9, 252);
+    font-size: 0.9rem;
+}
+
+.yellow-background {
+    background-color: rgb(250, 250, 82);
+    font-size: 1rem;
+
+}
+
+.list-blue {
+    background-color: rgb(64, 224, 208);
+}
+ /* unvisited link */
+a {
+    color: rgb(39, 218, 209);
+  }
+/* visited link */
+a:visited {
+    color: rgb(70, 0, 128);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(245, 245, 245);
+    font-weight: bold;
+    background-color: salmon;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(255, 136, 0);
+  }
+
+a.link-color {
+    color: rgb(255, 0, 212);
+    text-decoration: none
+
+}
+
+a.link-color:hover {
+    color: rgb(240, 156, 170);
+    background-color: initial;
+    text-decoration: none;
+}
+
+a.list-blue:active {
+    color: rgb(255, 136, 0);
+}
+
+.yellow-background:hover {
+    background-color: rgb(136, 235, 55);
+}
