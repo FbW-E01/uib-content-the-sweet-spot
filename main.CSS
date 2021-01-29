@@ -1,13 +1,22 @@
 html {
     font-size: 28px;
-    background-color: rgb(235, 218, 144);
+    /* background-color: rgb(235, 218, 144); */
+}
+body {
+    background-image: url(./images/him3ff1fcj131.jpg);
+    background-repeat: repeat;
 }
 
 .megawrapper {
     width: 800px;
-    background-color: rgb(235, 187, 156);
+    background-color: rgb(247, 207, 181);
+    margin: auto;
 }
 
+.superwrapper {
+    width: 750px;
+    margin: auto;
+}
 .h1-decoration {
     color: rgb(228, 228, 228);
     background-color: rgb(240, 156, 170);
@@ -34,32 +43,39 @@ html {
 
 .list-blue {
     background-color: rgb(64, 224, 208);
+    text-align: left;
 }
- /* unvisited link */
+
+/* unvisited link. Applies to all*/
 a {
-    color: rgb(39, 218, 209);
+    color: rgb(39, 51, 218);
   }
-/* visited link */
+
+/* visited link . Applies to all*/
 a:visited {
-    color: rgb(70, 0, 128);
+    color: rgb(128, 0, 79);
   }
   
-  /* mouse over link */
-  a:hover {
+  /* mouse over link. Applies to all*/
+a:hover {
     color: rgb(245, 245, 245);
     font-weight: bold;
     background-color: salmon;
   }
   
-  /* selected link */
-  a:active {
+  /* selected link. Applies to all*/
+a:active {
     color: rgb(255, 136, 0);
   }
-
+ 
+   /* unvisited link. Exception*/
+a.link-turquoise {
+    color: rgb(190, 49, 49);
+}
+  /* unvisited link. EXception*/
 a.link-color {
     color: rgb(255, 0, 212);
-    text-decoration: none
-
+    text-decoration: none;
 }
 
 a.link-color:hover {
@@ -74,4 +90,12 @@ a.list-blue:active {
 
 .yellow-background:hover {
     background-color: rgb(136, 235, 55);
+}
+
+.contact-style {
+    width: 600px;
+    margin: auto;
+    margin-top: 300px;
+    background-color: rgb(211, 250, 247);
+    text-align: center;
 }
