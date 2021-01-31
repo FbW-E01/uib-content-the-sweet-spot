@@ -1,0 +1,8 @@
+ul { 
+    list-style: none;
+    background-color: #1ed7f0;
+}
+
+#back-to-main a:visited {
+    color: orchid;
+}
