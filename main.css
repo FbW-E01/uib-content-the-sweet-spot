@@ -1,0 +1,100 @@
+html {
+    font-size: 28px;
+    background-color: rgb(179, 179, 179);
+}
+
+.megawrapper {
+    width: 800px;
+    background-color: whitesmoke;
+    margin: auto;
+}
+
+.right {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    text-align: center;
+    width: 150;
+    background-color: #AA7039;
+    color: #796B5E;
+}
+
+.right a {
+    display: block;
+    color: #6B3200;
+    transition: 0.3s;
+}
+
+.right a:visited {
+    color: #793800;
+}
+
+.right a:hover {
+    background-color: #796B5E;
+    color: #C15E00;
+    transition: 0.3s;
+}
+
+h1 {
+    color: #dad7d7;
+    background-color: #ff759f;
+    font-size: 1.5rem;
+}
+
+h2 {
+    color: #ff00f2;
+    background-color: #dad7d7;
+    font-size: 1.35rem;
+}
+
+#main-topic {
+    background-color: #ff00b4;
+    font-size: 1.1rem;
+}
+
+.subtopic {
+    background-color: #dbff4a;
+    font-size: 1.2rem;
+}
+
+ul {
+    list-style: none;
+    color: #6a008b;
+    background-color: #00ddef;
+    font-size: .9rem;
+}
+
+ul:hover {
+    background-color: #dbff4a;
+}
+
+a:visited {
+    color: #531a8b;
+}
+
+a:active {
+    color: #ffffff;
+    background-color: rgb(255, 105, 180);
+}
+
+h4 a:active {
+    color: red;
+    background-color: white;
+}
+
+h4 a:visited {
+    color: #1ed7f0;
+}
+
+h3 + ul {
+    list-style: circle;
+}
+
+h3 + ul:hover {
+    background-color: #f58ea0;
+}
+
+#main a:visited {
+    color: #ec10bd;
+}
+
