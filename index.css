@@ -5,7 +5,8 @@ html body {
   }
 
 body {
-    background-color: lightblue;
+    background-image: url(/images/pic123.jpg);
+    background-size: cover;
   
   }
   
@@ -20,7 +21,10 @@ body {
   }
   h4 {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
+  
+    
+
   }
   form
   {
@@ -29,9 +33,14 @@ body {
   .blue {
     text-align: center;
     font-size: 20px;
-  }
+  }s
   .pic {
     text-align: center;
 
 
+  }
+  p {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(123, 65, 177);
   }
