@@ -1,0 +1,50 @@
+.main-heading-1 {background-color: palevioletred;
+    color: white;
+
+}
+
+.heading-1{background-color: lightgray;
+    color: palevioletred;
+
+}
+.heading-2 {background-color: lightgray;
+    color: palevioletred;
+
+
+}
+h3:hover{
+color: turquoise;
+}
+.sub-heading-1 {background-color: yellow;
+
+
+}
+
+.sub-heading-2{background-color: yellow;
+
+}
+
+.heading-3{background-color: lightgray;
+    color: palevioletred;
+
+}
+
+.parag-1{background-color: violet;
+
+}
+
+
+
+div{background-color: turquoise;
+
+}
+div :hover {
+    background-color: yellow;}
+
+    .link-jump :visited {
+        color: turquoise;
+    }
+
+    a:link{
+        color: violet;
+    }
