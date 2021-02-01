@@ -1,0 +1,94 @@
+/* General styles that aplly to all project pages */
+
+html {
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f5deb3;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    width: 97vw;
+}
+
+/* Styles for index.html, in order of html flow
+    - styles for contact.html follows below */ 
+.megawrapper {
+    width: 800px;
+    background-color: #b3ddf5;
+}
+
+.title-mainPage {
+    color: #dad8d8;
+    background-color: #f58ea0;
+    font-size: 2rem;
+}
+
+h2 {
+    color: #f113f1;
+    background-color: #dad8d8;
+    font-size: 1.5rem;
+}
+
+.mainTopic-paragraph {
+    background-color: #ff69b4;
+    font-size: 0.75rem;
+}
+
+h3 {
+    background-color: #ebf64d;
+    font-size: 1.25rem;
+}
+
+.mainTopic-subtopic-paragraph:hover{
+    color: #f58ea0;
+}
+
+.nextMainTopic-paragraph {
+    font-weight: bold;
+}
+
+.partners {
+    background-color: #1ed7f0;
+}
+
+.partners {
+    list-style-type: none;
+    text-decoration: underline;
+    color: #561a8b;
+    font-size: 0.75rem;
+}
+
+.partners a:hover {
+    color: #f113f1;
+}
+
+.link-contactPage {
+    font-weight: bold;
+    color: #1ed7f0;
+    padding-bottom: 1rem;
+}
+
+/* Styles for contact.html */
+
+.title-contactPage {
+    font-size: 1.5rem;
+}
+
+.contact {
+    list-style-type: circle;
+    text-decoration: underline;
+    color: #0001ee;
+    background-color: #1ed7f0;
+}
+
+.contact a:hover {
+    color: #f113f1;
+}
+
+.link-mainPage{
+    font-weight: bold;
+    color: #f113f1;
+}
